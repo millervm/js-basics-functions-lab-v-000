@@ -22,4 +22,5 @@ function calculatesFarePrice(start, destination) {
   else if (distanceTravelledInFeet(start, destination) > 2000 && distanceTravelledInFeet(start, destination) < 2500) {
     price = 25;
   }
+  return price;
 }
